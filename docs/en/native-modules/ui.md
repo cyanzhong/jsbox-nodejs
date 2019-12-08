@@ -109,3 +109,12 @@ Display a loading progress bar (0 ~ 1):
 const ui = require("ui");
 ui.showProgress(0.5, "Loading");
 ```
+
+# ui.hideProgress()
+
+Hide the loading progress bar on the screen:
+
+```js
+const ui = require("ui");
+ui.hideProgress();
+```

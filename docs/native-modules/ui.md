@@ -109,3 +109,12 @@ ui.hideHUD();
 const ui = require("ui");
 ui.showProgress(0.5, "Loading");
 ```
+
+# ui.hideProgress()
+
+取消屏幕上的进度条显示：
+
+```js
+const ui = require("ui");
+ui.hideProgress();
+```
