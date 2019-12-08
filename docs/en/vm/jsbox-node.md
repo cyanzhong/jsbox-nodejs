@@ -61,3 +61,11 @@ $jsbox.notify("eventId", {
 ```
 
 The handler in the JSBox code will be called, and it prints the result. As you can see, `$nodejs.run/notify` and `$jsbox.run/notify` are paired, they will be used together to complete message dispatching.
+
+# $nodejs.version
+
+Returns the current Node.js version.
+
+# $nodejs.path
+
+Returns the current Node.js paths.

@@ -61,3 +61,11 @@ $nodejs.notify("eventId", {
 ```
 
 The handler in Node code will be called, and it prints the result.
+
+# $jsbox.version
+
+Returns the current JSBox version.
+
+# $jsbox.path
+
+Returns the current JSBox paths.
