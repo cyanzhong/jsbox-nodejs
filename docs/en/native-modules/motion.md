@@ -2,6 +2,17 @@
 
 `motion` module provides APIs for device sensors.
 
+# motion.available()
+
+Check whether the device supports motion sensors:
+
+```js
+const motion = require("motion");
+if (motion.available()) {
+
+}
+```
+
 # motion.startUpdates(object)
 
 Start tracking motion updates:
