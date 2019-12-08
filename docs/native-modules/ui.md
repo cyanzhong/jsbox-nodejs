@@ -101,11 +101,11 @@ const ui = require("ui");
 ui.hideHUD();
 ```
 
-# ui.showProgress(number)
+# ui.showProgress(number, string)
 
 在屏幕上显示加载进度条（0 ~ 1）：
 
 ```js
 const ui = require("ui");
-ui.showProgress(0.5);
+ui.showProgress(0.5, "Loading");
 ```

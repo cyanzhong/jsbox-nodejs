@@ -101,11 +101,11 @@ const ui = require("ui");
 ui.hideHUD();
 ```
 
-# ui.showProgress(number)
+# ui.showProgress(number, string)
 
 Display a loading progress bar (0 ~ 1):
 
 ```js
 const ui = require("ui");
-ui.showProgress(0.5);
+ui.showProgress(0.5, "Loading");
 ```
