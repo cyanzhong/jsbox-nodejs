@@ -61,3 +61,11 @@ $nodejs.notify("eventId", {
 ```
 
 这个时候 Node 程序中的 handler 会被调用，并打印出从 JSBox 获得的结果。
+
+# $jsbox.version
+
+获取当前 JSBox 的版本。
+
+# $jsbox.path
+
+获取当前 JSBox 相关的路径。

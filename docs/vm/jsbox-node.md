@@ -61,3 +61,11 @@ $jsbox.notify("eventId", {
 ```
 
 这个时候 JSBox 程序中的 handler 会被调用，并打印出从 Node 获得的结果。可以看出，`$nodejs.run/notify` 和 `$jsbox.run/notify` 是两两对应的，共同完成两个环境的互相调用。
+
+# $nodejs.version
+
+获取当前 Node.js 的版本。
+
+# $nodejs.path
+
+获取当前 Node.js 相关的路径。
