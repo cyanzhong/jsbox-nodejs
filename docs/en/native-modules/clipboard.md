@@ -1,6 +1,6 @@
 # module: "clipboard"
 
-`clipboard` modules provide clipboard APIs.
+`clipboard` module provides clipboard APIs.
 
 # clipboard.text()
 

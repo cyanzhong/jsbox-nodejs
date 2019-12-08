@@ -1,6 +1,6 @@
 # module: "contact"
 
-`contact` modules provide iOS contacts APIs.
+`contact` module provides iOS contacts APIs.
 
 # contact.pick(object) -> Promise
 
