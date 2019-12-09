@@ -29,6 +29,8 @@ const link = $context.link;
 const linkItems = $context.linkItems;
 // Get parameters from Safari sharing
 const safariParameters = $context.safari;
+// Get all items
+const allItems = $context.allItems;
 ```
 
 通过 share sheet 运行 Node 脚本时，将会自动打开应用来运行，你可以通过上述方法获取相应的数据。

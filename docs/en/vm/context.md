@@ -29,6 +29,8 @@ const link = $context.link;
 const linkItems = $context.linkItems;
 // Get parameters from Safari sharing
 const safariParameters = $context.safari;
+// Get all items
+const allItems = $context.allItems;
 ```
 
 It opens the main app directly, and you retrieve the shared data with the above methods.
