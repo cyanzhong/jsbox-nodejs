@@ -29,7 +29,7 @@ const link = $context.link;
 const linkItems = $context.linkItems;
 // Get parameters from Safari sharing
 const safariParameters = $context.safari;
-// Get all items
+// Get all items from share sheet
 const allItems = $context.allItems;
 ```
 
