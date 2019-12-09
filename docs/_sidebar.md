@@ -40,6 +40,7 @@
 - 通信机制
   - [简要介绍](vm/intro.md)
   - [Node 调用 JSBox](vm/node-jsbox.md)
+  - [Node 获取参数](vm/context.md)
   - [Objective-C](vm/objc.md)
   - [JSBox 调用 Node](vm/jsbox-node.md)
 

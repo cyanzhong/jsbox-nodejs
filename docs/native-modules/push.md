@@ -30,7 +30,7 @@ mute | bool | 是否静音
 repeats | bool | 是否重复
 script | string | 脚本名称
 height | number | 3D Touch 页面高度
-query | json | 额外参数，会被传递到 $jsbox.query
+query | json | 额外参数，会被传递到 $context.query
 attachments | array | 媒体文件，File 格式
 renew | bool | 是否重复创建（固定通知）
 

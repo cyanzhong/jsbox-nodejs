@@ -30,7 +30,7 @@ mute | bool | mute
 repeats | bool | repeats
 script | string | script name
 height | number | 3D Touch view height
-query | json | extra parameters, will be passed to $jsbox.query
+query | json | extra parameters, will be passed to $context.query
 attachments | array | media attachments, File format
 renew | bool | whether renew
 

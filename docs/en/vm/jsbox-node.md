@@ -46,7 +46,7 @@ Specify which script with `name`, `script` or `path`, and listen to notification
 The parameters you specified with `query` can be retrieved like this:
 
 ```js
-const query = $jsbox.query;
+const query = $context.query;
 ```
 
 As an alternative, you can also pass `argv` to the Node `process.argv`.

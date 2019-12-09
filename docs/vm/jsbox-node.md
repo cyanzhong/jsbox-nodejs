@@ -46,7 +46,7 @@ $nodejs.run({
 通过 `query` 传递的参数，在 Node 脚本里面可以这样获取：
 
 ```js
-const query = $jsbox.query;
+const query = $context.query;
 ```
 
 也可以通过 `argv` 参数将参数传递给 Node 的 `process.argv` 变量。
