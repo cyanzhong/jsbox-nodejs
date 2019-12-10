@@ -23,5 +23,3 @@ You can also manage dependencies using the `package.json` file:
   }
 }
 ```
-
-> In the current Implementation, versions will be ignored. Instead, it always uses the latest version.
