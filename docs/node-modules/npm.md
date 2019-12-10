@@ -9,7 +9,7 @@ JSBox 内置了对 [npm](https://www.npmjs.com/) 的支持，这意味着你可�
 - 打开项目目录
 - 点击左上角 Node 图标
 - 安装 Node.js 模块
-- 输入模块名，可以使用 `,` 分割多个模块
+- 输入模块名，可以使用 `,` 分割多个模块，可以通过 `@version` 来指定版本号
 
 # package.json
 

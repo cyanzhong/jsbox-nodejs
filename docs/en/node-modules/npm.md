@@ -9,7 +9,7 @@ Of course, you can also set up node modules on your desktop environment, then sy
 - Open your Node.js project
 - Tap the "Node.js" button
 - Install Node.js module
-- Type in the module name, multiple values are separated by `,`
+- Type in the module name, multiple values are separated by `,`, optionally, version can be specified with `@version`
 
 # package.json
 
