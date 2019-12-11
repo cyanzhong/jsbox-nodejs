@@ -1,6 +1,7 @@
 - 快速开始
   - [README](README.md)
   - [简要介绍](quickstart/intro.md)
+  - [样例项目](quickstart/examples.md)
 
 - Node 模块
   - [内置模块](node-modules/builtin.md)

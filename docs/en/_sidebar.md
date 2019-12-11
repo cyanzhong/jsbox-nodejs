@@ -1,6 +1,7 @@
 - Quick Start
   - [README](en/README.md)
   - [Intro](en/quickstart/intro.md)
+  - [Examples](en/quickstart/examples.md)
 
 - Node Modules
   - [Built-in Modules](en/node-modules/builtin.md)
