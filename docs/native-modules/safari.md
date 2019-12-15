@@ -23,6 +23,35 @@ safari.open({
 
 其中 `entersReader` 表示是否自动进入阅读模式。
 
+# safari.exec(object)
+
+使用 Safari 自带的 WebKit 内核运行 JavaScript:
+
+```js
+const safari = require("safari");
+const result = await safari.exec("const a = 100; return a;");
+//=> 100
+```
+
+也可以通过 `script` 参数运行，并监听 WebKit 环境的通知：
+
+```js
+const safari = require("safari");
+safari.exec({
+  script:
+  `
+  const a = 100;
+  const b = 100;
+  $notify("customEvent", {a, b});
+  `,
+  customEvent: result => {
+    console.log(result);
+  }
+});
+```
+
+在 WebKit 环境，可以通过 `$notify(...)` 函数将消息传递回 Node 环境。
+
 # safari.addReadingItem(object)
 
 添加到 Safari 的阅读列表：
