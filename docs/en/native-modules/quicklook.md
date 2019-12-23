@@ -58,3 +58,12 @@ Open an HTML with the quicklook component:
 const quicklook = require("quicklook");
 quicklook.html("<h1>Hey, there!<h1>");
 ```
+
+# quicklook.markdown(string) -> Promise
+
+Open a markdown text with the quicklook component:
+
+```js
+const quicklook = require("quicklook");
+quicklook.markdown("**Bold** text");
+```

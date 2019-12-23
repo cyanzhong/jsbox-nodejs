@@ -58,3 +58,12 @@ quicklook.json({
 const quicklook = require("quicklook");
 quicklook.html("<h1>Hey, there!<h1>");
 ```
+
+# quicklook.markdown(string) -> Promise
+
+使用预览功能打开 Markdown 格式文本：
+
+```js
+const quicklook = require("quicklook");
+quicklook.markdown("**Bold** text");
+```
