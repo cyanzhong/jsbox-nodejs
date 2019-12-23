@@ -39,7 +39,7 @@ quicklook.files([
 
 多个文件被打开时，可以左右滑动切换文件。
 
-# quicklook.json(JSON)
+# quicklook.json(JSON) -> Promise
 
 使用 JSBox 内置的 JSON 查看器预览 JSON:
 

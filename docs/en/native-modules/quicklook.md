@@ -39,7 +39,7 @@ quicklook.files([
 
 You can navigate files by swiping left and right.
 
-# quicklook.json(JSON)
+# quicklook.json(JSON) -> Promise
 
 Open a JSON object with the JSBox built-in JSON viewer:
 
