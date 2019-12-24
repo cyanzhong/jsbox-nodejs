@@ -1,8 +1,8 @@
-# npm
+# 依赖管理
 
-JSBox 内置了对 [npm](https://www.npmjs.com/) 的支持，这意味着你可以直接在应用内完成 node modules 的安装。
+JSBox 内置了对 [npm](https://www.npmjs.com/) 仓库的支持，这意味着你可以直接在应用内完成 node modules 的安装。
 
-当然，也可以在桌面端完成 node modules 的配置，并将项目运行到设备上。
+当然，也可以在桌面端完成 node_modules 的配置，并将项目运行到设备上。
 
 # 安装 Node.js 模块
 

@@ -5,7 +5,7 @@
 
 - Node Modules
   - [Built-in Modules](en/node-modules/builtin.md)
-  - [npm](en/node-modules/npm.md)
+  - [Dependencies](en/node-modules/deps.md)
 
 - File System
   - [Intro](en/fs/intro.md)

@@ -5,7 +5,7 @@
 
 - Node 模块
   - [内置模块](node-modules/builtin.md)
-  - [npm](node-modules/npm.md)
+  - [依赖管理](node-modules/deps.md)
 
 - 文件系统
   - [简要介绍](fs/intro.md)

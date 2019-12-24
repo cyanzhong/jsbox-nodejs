@@ -1,8 +1,8 @@
-# npm
+# Dependency management
 
-JSBox has built-in support for the [npm](https://www.npmjs.com/), which means you can resolve your node dependencies without leaving the app.
+JSBox has built-in support for the [npm](https://www.npmjs.com/) repository, which means you can resolve your node dependencies without leaving the app.
 
-Of course, you can also set up node modules on your desktop environment, then sync the code to your device.
+Of course, you can also set up node_modules on your desktop environment, then sync the code to your device.
 
 # Install Node.js module
 
