@@ -37,6 +37,7 @@
   - [Message](en/native-modules/message.md)
   - [Montion](en/native-modules/motion.md)
   - [Detector](en/native-modules/detector.md)
+  - [Manage Scripts](en/native-modules/addin.md)
 
 - Virtual Runtimes
   - [Intro](en/vm/intro.md)

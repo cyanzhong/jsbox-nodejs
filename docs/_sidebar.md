@@ -37,6 +37,7 @@
   - [消息](native-modules/message.md)
   - [传感数据](native-modules/motion.md)
   - [数据检测](native-modules/detector.md)
+  - [脚本管理](native-modules/addin.md)
 
 - 通信机制
   - [简要介绍](vm/intro.md)
