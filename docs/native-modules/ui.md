@@ -63,6 +63,16 @@ ui.menu(["A", "B", "C"]).then(option => {
 });
 ```
 
+也可以指定 `title` 用于提示用户：
+
+```js
+const ui = require("ui");
+ui.menu({
+  title: "Options",
+  items: ["A", "B", "C"]
+}).then(option => {});
+```
+
 # ui.toast(string, number)
 
 显示一个消息，过一段时间后会自动消失：

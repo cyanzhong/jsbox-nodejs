@@ -63,6 +63,16 @@ ui.menu(["A", "B", "C"]).then(option => {
 });
 ```
 
+It can be more descriptive with a `title`:
+
+```js
+const ui = require("ui");
+ui.menu({
+  title: "Options",
+  items: ["A", "B", "C"]
+}).then(option => {});
+```
+
 # ui.toast(string, number)
 
 Present a toast, it will be removed automatically after a delay:
