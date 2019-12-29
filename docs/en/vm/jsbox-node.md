@@ -62,6 +62,18 @@ $jsbox.notify("eventId", {
 
 The handler in the JSBox code will be called, and it prints the result. As you can see, `$nodejs.run/notify` and `$jsbox.run/notify` are paired, they will be used together to complete message dispatching.
 
+# $nodejs.listen(string, Function)
+
+Listen notifications from Node.js runtime:
+
+```js
+$nodejs.listen("eventId", () => {
+
+});
+```
+
+Node.js can send message to above observers with `$jsbox.notify(...)`.
+
 # $nodejs.version
 
 Returns the current Node.js version.
