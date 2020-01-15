@@ -4,6 +4,7 @@ In order to make the Node.js runtime more easier to master, we prepared some exa
 
 Also, they are hosted on the GitHub, since we don't want to bundle them in the app. What you need to do is clone them, and follow the instructions.
 
+- [react-demo](https://github.com/cyanzhong/jsbox-react-demo): React.js dev environment
 - [youtube-dl](https://github.com/cyanzhong/jsbox-youtube-dl): A simple YouTube downloader
 - [cheerio](https://github.com/cyanzhong/jsbox-cheerio): Use `cheerio` in JSBox
 - [ts-playground](https://github.com/cyanzhong/jsbox-ts-playground): Transpile TypeScript to JavaScript

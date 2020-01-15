@@ -4,6 +4,7 @@
 
 同时，为了不让这些样例代码占用过多的应用空间，我们把这些项目放在了 GitHub 上，将他们 clone 下来之后推送到设备上，按照提示操作即可运行。
 
+- [react-demo](https://github.com/cyanzhong/jsbox-react-demo): React.js 开发环境
 - [youtube-dl](https://github.com/cyanzhong/jsbox-youtube-dl): 简单的 YouTube 视频下载工具
 - [cheerio](https://github.com/cyanzhong/jsbox-cheerio): 在 JSBox 内使用 `cheerio` 的样例
 - [ts-playground](https://github.com/cyanzhong/jsbox-ts-playground): TypeScript 编译成 JavaScript
