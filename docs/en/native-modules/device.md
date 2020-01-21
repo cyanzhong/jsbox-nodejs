@@ -162,3 +162,12 @@ device.taptic(0);
 Param | Type | Description
 ---|---|---
 level | number | 0 ~ 2
+
+# device.isJailbroken()
+
+Check whether device is jailbroken:
+
+```js
+const device = require("device");
+const isJailbroken = device.isJailbroken();
+```

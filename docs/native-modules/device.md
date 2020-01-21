@@ -162,3 +162,12 @@ device.taptic(0);
 参数 | 类型 | 说明
 ---|---|---
 level | number | 0 ~ 2 表示振动等级
+
+# device.isJailbroken()
+
+检查设备是否越狱：
+
+```js
+const device = require("device");
+const isJailbroken = device.isJailbroken();
+```
