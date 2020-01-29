@@ -10,6 +10,16 @@ JSBox 2.1.0 增加了图像处理模块 `imagekit`，通过这个模块你可以
 
 为了更直观的介绍，我们构建了一个使用了所有接口的样例项目：https://github.com/cyanzhong/jsbox-imagekit-node
 
+# imagekit.info(File)
+
+获取图片信息：
+
+```js
+const imagekit = require("imagekit");
+const info = imagekit.info(source);
+// width, height, orientation, scale, props
+```
+
 # imagekit.grayscale(File)
 
 转换成灰度图像：

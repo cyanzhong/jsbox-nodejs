@@ -10,6 +10,16 @@ JSBox 2.1.0 brings `imagekit` module for image processing, you can achieve many 
 
 In order to make it easier to understand, we created a demo project that uses all APIs: https://github.com/cyanzhong/jsbox-imagekit-node
 
+# imagekit.info(File)
+
+Get image information:
+
+```js
+const imagekit = require("imagekit");
+const info = imagekit.info(source);
+// width, height, orientation, scale, props
+```
+
 # imagekit.grayscale(File)
 
 Get grayscaled image:
