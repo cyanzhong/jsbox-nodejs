@@ -22,6 +22,7 @@
   - [本地化](native-modules/l10n.md)
   - [剪贴板](native-modules/clipboard.md)
   - [图片](native-modules/photo.md)
+  - [图像处理](native-modules/imagekit.md)
   - [iCloud 云盘](native-modules/drive.md)
   - [预览](native-modules/quicklook.md)
   - [社交分享](native-modules/share.md)

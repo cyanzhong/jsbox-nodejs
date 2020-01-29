@@ -22,6 +22,7 @@
   - [Localization](en/native-modules/l10n.md)
   - [Clipboard](en/native-modules/clipboard.md)
   - [Photo](en/native-modules/photo.md)
+  - [Image Processing](en/native-modules/imagekit.md)
   - [iCloud Drive](en/native-modules/drive.md)
   - [Quick Look](en/native-modules/quicklook.md)
   - [Sharing](en/native-modules/share.md)
