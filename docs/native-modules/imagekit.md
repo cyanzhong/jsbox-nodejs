@@ -278,13 +278,24 @@ const output = imagekit.concatenate(Files, 10, 0);
 //   - 1: horizontally
 ```
 
-# imagekit.combine(File, mask)
+# imagekit.combine(File, mask, mode)
 
 将两个图片叠加：
 
 ```js
 const imagekit = require("imagekit");
-const output = imagekit.combine(File1, File2);
+const output = imagekit.combine(File1, File2, mode);
+// mode:
+//   - 0: top-left
+//   - 1: top-center
+//   - 2: top-right
+//   - 3: bottom-left
+//   - 4: bottom-center
+//   - 5: bottom-right
+//   - 6: left-center
+//   - 7: right-center
+//   - 8: center (default)
+//   - {x: number, y: number}: absolute position
 ```
 
 # imagekit.rounded(File, radius)
