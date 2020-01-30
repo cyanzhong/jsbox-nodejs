@@ -307,6 +307,15 @@ const imagekit = require("imagekit");
 const output = imagekit.rounded(source, 10);
 ```
 
+# imagekit.circular(image)
+
+Get a circular image, it will be centered and clipped if the source image isn't a square:
+
+```js
+const imagekit = require("imagekit");
+const output = imagekit.circular(source);
+```
+
 # imagekit.extractGIF(data) -> Promise
 
 Extract GIF data to frames:
