@@ -334,9 +334,11 @@ const {images, durations} = await imagekit.extractGIF(data);
 ```js
 const imagekit = require("imagekit");
 const images = [File1, File2];
-const data = await imagekit.makeGIF(Files, {
-  durations: [0.5, 0.5]
-});
+const options = {
+  durations: [0.5, 0.5],
+  // size: 16, 12, 8, 4, 2
+}
+const data = await imagekit.makeGIF(Files, options);
 ```
 
 若使用 `duration` 替代 `durations`，则每张图片时长一致。
