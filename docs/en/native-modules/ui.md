@@ -30,20 +30,7 @@ const ui = require("ui");
 ui.alert({
   title: "Title",
   message: "Message",
-  actions: [
-    {
-      title: "Action 1",
-      handler: () => {
-
-      }
-    },
-    {
-      title: "Action 2",
-      handler: () => {
-        
-      }
-    }
-  ]
+  actions: ["Action 1", "Action 2"]
 });
 ```
 
