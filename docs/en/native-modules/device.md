@@ -171,3 +171,12 @@ Check whether device is jailbroken:
 const device = require("device");
 const isJailbroken = device.isJailbroken();
 ```
+
+# device.isVoiceOverOn()
+
+Check whether VoiceOver is running:
+
+```js
+const device = require("device");
+const isVoiceOverOn = device.isVoiceOverOn();
+```

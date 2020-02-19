@@ -171,3 +171,12 @@ level | number | 0 ~ 2 表示振动等级
 const device = require("device");
 const isJailbroken = device.isJailbroken();
 ```
+
+# device.isVoiceOverOn()
+
+检查是否在使用 VoiceOver:
+
+```js
+const device = require("device");
+const isVoiceOverOn = device.isVoiceOverOn();
+```
