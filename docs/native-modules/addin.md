@@ -13,6 +13,17 @@ console.log(list[0]);
 // name, url, version, icon, summary, author, website...
 ```
 
+# addin.categories()
+
+获取设备上所有的脚本分类：
+
+```js
+const addin = require("addin");
+const categories = addin.categories();
+console.log(categories);
+// [string]
+```
+
 # addin.current()
 
 获取当前正在运行的脚本：

@@ -13,6 +13,17 @@ console.log(list[0]);
 // name, url, version, icon, summary, author, website...
 ```
 
+# addin.categories()
+
+Get all script categories:
+
+```js
+const addin = require("addin");
+const categories = addin.categories();
+console.log(categories);
+// [string]
+```
+
 # addin.current()
 
 Get the current running script:
