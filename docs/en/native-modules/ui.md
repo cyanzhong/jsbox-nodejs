@@ -2,6 +2,33 @@
 
 `ui` module provides some UI components.
 
+# ui.success(string, number)
+
+Similar to `toast`, but the bar color is green, indicates success:
+
+```js
+const ui = require("ui");
+ui.success("Done");
+```
+
+# ui.warning(string, number)
+
+Similar to `toast`, but the bar color is yellow, indicates warning:
+
+```js
+const ui = require("ui");
+ui.warning("Be careful!");
+```
+
+# ui.error(string, number)
+
+Similar to `toast`, but the bar color is red, indicates error:
+
+```js
+const ui = require("ui");
+ui.error("Something went wrong!");
+```
+
 # ui.alert(object)
 
 Present an alert, the simplest usage is:

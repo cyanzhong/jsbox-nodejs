@@ -71,6 +71,33 @@ ui.toast("Hi", 3.0);
 
 时间参数可以缺省，默认情况下是 2 秒。
 
+# ui.success(string, number)
+
+与 `toast` 类似，但背景色为绿色，以表示成功：
+
+```js
+const ui = require("ui");
+ui.success("Done");
+```
+
+# ui.warning(string, number)
+
+与 `toast` 类似，但背景色为黄色，以表示警告：
+
+```js
+const ui = require("ui");
+ui.warning("Be careful!");
+```
+
+# ui.error(string, number)
+
+与 `toast` 类似，但背景色为红色，以表示错误：
+
+```js
+const ui = require("ui");
+ui.error("Something went wrong!");
+```
+
 # ui.clearToast()
 
 清除屏幕上的 toast 消息：
