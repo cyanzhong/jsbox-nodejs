@@ -1,1 +1,1 @@
-- [**EN** / CN](https://cyanzhong.github.io/jsbox-nodejs/#/)
+- [**EN** / CN](/)
