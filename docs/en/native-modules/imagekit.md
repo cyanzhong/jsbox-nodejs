@@ -20,7 +20,7 @@ const info = imagekit.info(source);
 // width, height, orientation, scale, props
 ```
 
-# imagekit.pixelColors(image)
+# imagekit.pixelColors(File)
 
 Get color for each pixel:
 
