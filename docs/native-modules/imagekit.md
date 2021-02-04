@@ -20,7 +20,7 @@ const info = imagekit.info(source);
 // width, height, orientation, scale, props
 ```
 
-# imagekit.pixelColors(File)
+# imagekit.pixelColors(image)
 
 获取图片各个点的颜色值：
 
