@@ -37,7 +37,7 @@ contact.fetch({
 ```js
 const contact = require("contact");
 contact.fetch({
-  group: group
+  group
 }).then(results => {
 
 });

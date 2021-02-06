@@ -37,7 +37,7 @@ You can also retrieve all contacts under a certain group:
 ```js
 const contact = require("contact");
 contact.fetch({
-  group: group
+  group
 }).then(results => {
 
 });

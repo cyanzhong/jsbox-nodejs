@@ -44,7 +44,7 @@ const push = require("push");
 push.schedule({
   title: "Title",
   body: "Body",
-  date: date,
+  date,
   handler: result => {
     const id = result.id;
   }
