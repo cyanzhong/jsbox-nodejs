@@ -13,7 +13,6 @@
 - Email: [log.e@qq.com](mailto:log.e@qq.com)
 - Weibo: [@StackOverflowError](https://weibo.com/0x00eeee)
 - Twitter: [@JSBoxApp](https://twitter.com/JSBoxApp)
-- Telegram: [PinTG](https://t.me/PinTG)
 
 *准备好了，[快速开始 >](quickstart/intro.md)*
 
